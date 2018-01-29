@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvWorkMode" />
+        <Spinner
+            android:id="@+id/spnWorkMode"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:entries="@array/arrayMode" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnGetFre"
+            android:layout_height="wrap_content"
+            android:text="@string/btnGetFre"
+            android:layout_width="160dp" />
+        <Button
+            android:id="@+id/btnSetFre"
+            android:text="@string/btnSetFre"
+            android:layout_height="wrap_content"
+            android:layout_width="160dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvPower" />
+        <Spinner
+            android:id="@+id/spnPower"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:entries="@array/arrayPower" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnGetPower"
+            android:layout_height="wrap_content"
+            android:text="@string/btnGetPower"
+            android:layout_width="160dp" />
+        <Button
+            android:id="@+id/btnSetPower"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSetPower"
+            android:layout_width="160dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lvR2000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <!--设置获取空占比-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvTime" />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtTxtTime" />
+            <TextView
+                android:layout_marginLeft="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvWait" />
+            <EditText
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtTxtWait" />
+        </LinearLayout>
+    <!--设置获取空占比-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnGetTime"
+                android:layout_height="wrap_content"
+                android:text="@string/btnGetTime"
+                android:layout_width="160dp" />
+            <Button
+                android:id="@+id/btnSetTime"
+                android:layout_height="wrap_content"
+                android:text="@string/btnSetTime"
+                android:layout_width="160dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

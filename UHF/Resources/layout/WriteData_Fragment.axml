@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvBank" />
+        <Spinner
+            android:id="@+id/spnBank_W"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/arrayBank" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvAddress" />
+        <EditText
+            android:id="@+id/edtTxtAddress_W"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:text="0" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:text="@string/tvLeng" />
+        <EditText
+            android:id="@+id/edtTxtLeng_W"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:text="4" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvPassword" />
+        <EditText
+            android:id="@+id/edtTxtPassword_W"
+            android:hint="00000000"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvData" />
+        <EditText
+            android:id="@+id/edtTxtData_W"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="59428BF857CE66F95BB657615F204E092020433246206E633535202020202020674E56DB2020674E4E94516D674E4E03516B34303030323031353036313031B7" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnWriteData"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/btnWriteData" />
+</LinearLayout>

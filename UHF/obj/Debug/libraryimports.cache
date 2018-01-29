@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <ManifestDocuments />
+  <NativeLibraries />
+  <Jars>
+    <Jar>obj\Debug\__library_projects__\1_DeviceAPI_Android.Jars.cw-deviceapi(2016.05.16).jar</Jar>
+    <Jar>obj\Debug\__library_projects__\DeviceAPI_Android\library_project_imports\DeviceAPI_Android.Jars.cw-deviceapi(2016.05.16).jar</Jar>
+  </Jars>
+</Paths>
